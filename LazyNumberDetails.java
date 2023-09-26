@@ -24,14 +24,14 @@ public class LazyNumberDetails {
 	public void updateNumber(int number) { 
 		if (this.number != number) {
 			this.number = number; 
-	        this.isPrimeCached = false;
-	        this.isPrimeResult = false;
+	                this.isPrimeCached = false;
+	                this.isPrimeResult = false;
 	        
-	        this.isPerfectCached = false;
-	        this.isPerfectResult = false;
+	                this.isPerfectCached = false;
+	                this.isPerfectResult = false;
 	        
-	        this.isMagicCached = false;
-	        this.isMagicResult = false;
+	                this.isMagicCached = false;
+	                this.isMagicResult = false;
 		}
 	}	
 	
