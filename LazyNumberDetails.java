@@ -1,25 +1,24 @@
-
 public class LazyNumberDetails {
 	private int number; 
-    private boolean isPrimeCached;
-    private boolean isPrimeResult; 
+        private boolean isPrimeCached;
+        private boolean isPrimeResult; 
     
-    private boolean isPerfectCached;
-    private boolean isPerfectResult; 
+        private boolean isPerfectCached;
+        private boolean isPerfectResult; 
     
-    private boolean isMagicCached;
-    private boolean isMagicResult; 
+        private boolean isMagicCached;
+        private boolean isMagicResult; 
 	
 	public LazyNumberDetails(int number) {
 		this.number = number; 
-        this.isPrimeCached = false;
-        this.isPrimeResult = false;
+                this.isPrimeCached = false;
+                this.isPrimeResult = false;
         
-        this.isPerfectCached = false;
-        this.isPerfectResult = false;
+                this.isPerfectCached = false;
+                this.isPerfectResult = false;
         
-        this.isMagicCached = false;
-        this.isMagicResult = false;
+                this.isMagicCached = false;
+                this.isMagicResult = false;
 	}
 	
 	public void updateNumber(int number) { 
